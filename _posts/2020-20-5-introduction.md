@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GSoC 2020 begins: Introduction to RTT
+title: GSoC 2020 begins - Introduction to RTT
 ---
 
 Hello there!
