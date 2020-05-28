@@ -23,11 +23,11 @@ Fortunately, in my search, I found that Python has a standard library called
 difflib which offers exactly what I want for my purpose. The algorithm behind is basically a version of Longest Common Subsequence (LCS) and produces a good result that is more "human friendly", unlike traditional LCS.
 Here's a small script I ran in python inspired from [this StackOverflow answer](https://stackoverflow.com/questions/774316/python-difflib-highlighting-differences-inline/788780#788780):
 
-![_config.yml]({{ site.baseurl }}/images/diffpy.jpg)
+![_config.yml]({{ site.baseurl }}/images/diffpy.png)
 
 And the result:
 
-![_config.yml]({{ site.baseurl }}/images/diffres.jpg)
+![_config.yml]({{ site.baseurl }}/images/diffres.png)
 
 Pretty neat, right!
 
