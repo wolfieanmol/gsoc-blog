@@ -30,5 +30,5 @@ And the result:
 
 Pretty neat, right!
 
-So right now I’m looking over at implementing something like this for dino In Vala. Instead of color-coded text to show the difference the Vala code will call methods that will generate insert and erase action elements.
+So right now I’m looking over at implementing something like this for Dino In Vala. Instead of color-coded text to show the difference the Vala code will call methods that will generate insert and erase action elements.
 
