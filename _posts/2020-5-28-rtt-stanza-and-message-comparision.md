@@ -7,8 +7,7 @@ It's been a week and a half since I started working On Real-Time Text. Firstly I
 
 My initial goal is to get a basic real-time text model for single chat users. For that, I have planned a series of steps which are as follows:
 
-![_config.yml]({{ site.baseurl }}/images/rtt_send.jpg){:height="50%" width="50%"}
-![_config.yml]({{ site.baseurl }}/images/rtt_receive.jpg){:height="50%" width="50%"}
+![_config.yml]({{ site.baseurl }}/images/rtt_send.jpg){:height="50%" width="50%"} ![_config.yml]({{ site.baseurl }}/images/rtt_receive.jpg){:height="50%" width="50%"}
 
 One of the important steps to achieve that is message comparison.
 This step will produce a difference between the previous text stored in the buffer and the new one being typed. This text difference will be translated in the form of action elements that will be sent in the <rtt/> element. 
