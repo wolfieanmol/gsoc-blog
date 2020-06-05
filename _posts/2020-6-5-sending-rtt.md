@@ -3,7 +3,7 @@ layout: post
 title: Sending RTT
 ---
 
-In last week's blog, I introduced you to message comparison and an optimized algorithm to compare between two strings already being present in Python (which is an implementation of [gestalt pattern matching (https://en.wikipedia.org/wiki/Gestalt_Pattern_Matching), an algorithm published in 1988 by Ratcliff and Obershelp).
+In last week's blog, I introduced you to message comparison and an optimized algorithm to compare between two strings already being present in Python (which is an implementation of [gestalt pattern matching] (https://en.wikipedia.org/wiki/Gestalt_Pattern_Matching), an algorithm published in 1988 by Ratcliff and Obershelp).
 
 This week I managed to implement the said algorithm in Vala to compare the current and previous versions of the message being typed and used it to generate the relevant action elements. The results produced are good with the correct action elements being generated.
 
