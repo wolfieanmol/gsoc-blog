@@ -5,9 +5,9 @@ title: Settings to Enable/Disable RTT
 
 As you may already know from my last week's blog post, Real-Time Texting is working great for single user chats. Even though working great, some users may not want to enable RTT and stick with traditional texting or they may just want to receive but not send; so this week I worked on the option to give them this choice. We concluded that there should be a three-state option for RTT, namely: 
 
-    - `Send and Receive`
-    - `Receive only`
-    - `Off`
+`Send and Receive`
+`Receive only`
+`Off`
 
 With the implementation of this option, sending and receiving `init` and `cancel` events are also now accounted for.
 
