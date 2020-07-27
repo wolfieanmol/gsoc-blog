@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Realistic RTT with 'wait'
+title: Realistic RTT with wait
 ---
 
 Since the last update, I have been able to make stale RTT disappear from UI and make Real-Time Text more realistic by matching the typing speed/pattern by accounting for the `wait` action element. Receiving wait and pausing RTT, in particular, took a lot of debugging and some refactoring of code.
