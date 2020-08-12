@@ -29,7 +29,7 @@ Second: The chat input kept on updating in a loop for both the clients. The reas
 
 For MUC only 3 Real-Time Text widgets would be displayed at a time. This is done to ensure that in case of highly active MUCs with multiple people typing at a time it does not cause any problems with user experience and to keep the UI clean and free of clutter.
 
-If there are already more than three RTT widgets present then the priority of the new incoming JID and the previous ones present is checked based on MUC affiliation with the owner having a greater priority than admins and so on.
+If there are already more than three RTT widgets present then the priority of the new incoming RTT and the previous ones present is checked on the basis on MUC affiliation with the owner having a greater priority than admins and so on.
 
 Other than that I resolved for removing typing notifications for those whose RTT is being displayed.
 
