@@ -9,7 +9,7 @@ Since the last update, I have been able to implement cursor support for real-tim
 
 Since with the support of wait action elements, the received real-time texts are processed and displayed more realistically; keeping the typing patterns of the peer, the next step was to implement cursor support to display where the changes are taking place.
 
-Implementing this was pretty straightforward, just insert '|' character in the latest position in the label and remove the old one if present.
+Implementing this was pretty straightforward, just insert `|` character in the latest position in the label and remove the old one if present.
 
 # Support for Multiple Devices
 
